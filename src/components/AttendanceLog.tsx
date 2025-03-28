@@ -135,7 +135,7 @@ const AttendanceLog = () => {
                 </div>
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">All Dates</SelectItem>
+                <SelectItem value="all-dates">All Dates</SelectItem>
                 {dates.map(date => (
                   <SelectItem key={date} value={date}>{formatDate(date)}</SelectItem>
                 ))}
@@ -147,7 +147,7 @@ const AttendanceLog = () => {
                 <SelectValue placeholder="Filter by class" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">All Classes</SelectItem>
+                <SelectItem value="all-classes">All Classes</SelectItem>
                 {classes.map(cls => (
                   <SelectItem key={cls} value={cls}>{cls}</SelectItem>
                 ))}
@@ -159,7 +159,7 @@ const AttendanceLog = () => {
                 <SelectValue placeholder="Filter by status" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="">All Statuses</SelectItem>
+                <SelectItem value="all-statuses">All Statuses</SelectItem>
                 <SelectItem value="present">Present</SelectItem>
                 <SelectItem value="late">Late</SelectItem>
                 <SelectItem value="absent">Absent</SelectItem>
