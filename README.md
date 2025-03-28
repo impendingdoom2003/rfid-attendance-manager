@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/8cf04368-e46f-419e-9bbe-98d46048fbb0
+**URL**: https://rfid-attendance-manager.vercel.app/
 
 ## How can I edit this code?
 
